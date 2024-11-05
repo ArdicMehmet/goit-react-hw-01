@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./profileStat.module.css";
-const ProfileStat = () => {
+const ProfileStat = ({ name, content }) => {
   return (
     <li className={`${styles.container}`}>
-      <span className={`${styles.statName}`}>Followers</span>
-      <span className={`${styles.statContent}`}>1000</span>
+      <span className={`${styles.statName}`}>{name}</span>
+      <span className={`${styles.statContent}`}>{content}</span>
     </li>
   );
 };

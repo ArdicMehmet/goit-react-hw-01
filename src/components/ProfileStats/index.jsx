@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./profileStats.module.css";
 import ProfileStat from "../ProfileStat";
-const ProfileStats = () => {
+const ProfileStats = ({ stats }) => {
   return (
     <ul className={`${styles.container}`}>
-      <ProfileStat />
-      <ProfileStat />
-      <ProfileStat />
+      {stats.map((stat, index) => (
+        <ProfileStat key={index} name={stat.name} content={stat.content} />
+      ))}
     </ul>
   );
 };
