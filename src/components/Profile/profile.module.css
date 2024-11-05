@@ -1,0 +1,7 @@
+.container {
+    border: 2px solid #000000;
+    max-width: max-content;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}

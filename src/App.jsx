@@ -1,11 +1,10 @@
 import "./App.css";
-import Avatar from "./components/Avatar";
-import AvatarImage from "./components/AvatarImage";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <>
-      <Avatar />
+      <Profile />
     </>
   );
 }
