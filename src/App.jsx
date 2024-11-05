@@ -1,10 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import AvatarImage from "./components/AvatarImage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <AvatarImage />
+    </>
+  );
 }
 
 export default App;
