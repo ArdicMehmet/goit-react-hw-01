@@ -1,7 +1,10 @@
 import "./App.css";
-import Profile from "./components/Profile";
+import Profile from "./components/Profile/ProfileCard";
+import { FriendList } from "./components/Friends/FriendList";
+import TransactionHistory from "./components/Transaction/TransactionHistory";
 import userData from "../userData.json";
-
+import friends from "../friends.json";
+import transactions from "../transactions.json";
 function App() {
   return (
     <>
@@ -12,7 +15,8 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       /> */}
-      Deneme
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }

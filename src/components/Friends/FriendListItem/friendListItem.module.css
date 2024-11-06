@@ -1,0 +1,30 @@
+.container{
+    width: 120px;
+    max-width: 120px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.active {
+    color: #108711;
+}
+.passive {
+    color: #FF1C1A;
+}
+.name {
+    font-size: 28px;
+    margin: bottom 10px;
+}
+.status{
+    font-size: 18px;
+}
+.name, .status{
+    text-align: center;
+}
