@@ -1,0 +1,17 @@
+.headContainer {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+}
+.transactionListItem:nth-child(even) {
+    background-color: #D3D3D3;
+}
+.transactionListItem:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.column{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
